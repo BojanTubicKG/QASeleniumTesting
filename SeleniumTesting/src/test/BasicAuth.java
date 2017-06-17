@@ -28,21 +28,9 @@ WebDriver driver;
 	
 	public BasicAuth sentUserPass(String username,String pass) throws IOException{
 		
-		//WebDriver driver =this.driver;
-		
-		//FirefoxProfile firefoxProfile=new FirefoxProfile();
-		//FirefoxDriver fd=new FirefoxDriver(firefoxProfile);
-
-	    //String URL = "http://" + username + ":" + pass + "@" + "the-internet.herokuapp.com";
-	    //driver.get(URL);
-	    //driver.manage().window().maximize();
-		//WebDriverWait wait = new WebDriverWait(driver, 10);      
-		//Alert alert = wait.until(ExpectedConditions.alertIsPresent());     
-		//alert.authenticateUsing(new UserAndPassword(username, pass));
-		
-		 String webPage = "http://the-internet.herokuapp.com";
-	     String Uname = username;
-	     String password = pass;
+	        String webPage = "http://the-internet.herokuapp.com";
+	        String Uname = username;
+	        String password = pass;
 
 	        String authString = Uname + ":" + password;
 	        System.out.println("auth string: " + authString);
